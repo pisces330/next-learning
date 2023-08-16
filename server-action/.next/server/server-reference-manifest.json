@@ -1,0 +1,13 @@
+{
+  "node": {
+    "1e520d268caeb9845552019783001a77161c68d9": {
+      "workers": {
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fmint%2FDesktop%2FforNext.js%2Fnext-learning%2Fserver-action%2Faction%2FserverAction.ts%22%2C%5B%22addProduct%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}
