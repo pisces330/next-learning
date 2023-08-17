@@ -1,4 +1,5 @@
 import { addProduct } from "@/action/serverAction";
+import ProductBtn from "@/components/ProductBtn";
 import { Product } from "@/typings";
 
 export default async function Home() {
@@ -27,6 +28,7 @@ export default async function Home() {
     <main className="">
       <h1 className="text-3xl font-bold text-center">제품 창고</h1>
 
+      <ProductBtn />
       <form
         action={addProduct}
         className="flex flex-col gap-5 max-w-lx mx-auto p-5"
